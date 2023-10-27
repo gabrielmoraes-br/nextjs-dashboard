@@ -1,0 +1,96 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dark+ Material",
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": false,
+  "workbench.startupEditor": "none",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.sortOrder": "default",
+  "extensions.ignoreRecommendations": true,
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "window.newWindowDimensions": "inherit",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "telemetry.telemetryLevel": "off",
+  "security.workspace.trust.untrustedFiles": "open",
+  "breadcrumbs.enabled": false,
+  "outline.icons": false,
+  "html.format.wrapAttributes": "auto",
+  "html.format.wrapLineLength": 0,
+  "html.autoClosingTags": false,
+  "terminal.integrated.fontSize": 13,
+  "color-highlight.markerType": "dot-before",
+  //"editor.fontFamily": "IBM Plex Mono, Monaco, Courier New, monospace",
+  "editor.tabCompletion": "on",
+  "editor.wordWrap": "on",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.5,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "selection",
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.formatOnSave": true,
+  "editor.colorDecorators": false,
+  "editor.minimap.enabled": false,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.bracketPairColorization.enabled": false,
+  "editor.accessibilitySupport": "off",
+  "emmet.excludeLanguages": ["markdown", "css"],
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.tsx": "typescriptreact"
+  },
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
+
+  // NOVO PROJETO COM NEXT.JS
+  // 1. npx create-next-app@latest
+  
+  // NOVO PROJETO COM VITE
+  // 1. npm create vite@latest . 
+  // 2. npm install
+  // 3. npm install react-router-dom prop-types vite-plugin-svgr
+  // https://www.origamid.com/slide/react-completo/#/0205-ferramenta-front-end/5
+
+  // NPM
+  // npm init -y (inicia uma nova configuração local do npm e dá SIM pra tudo)
+  // npm install (instala as dependências listadas no package.json)
+  // npm update
+  // npm uninstall
+
+  // CLEAN CSS
+  // npm install clean-css-cli -g
+  // cleancss -o one.min.css one.css --with-rebase
+
+  // LODASH
+  // npm install lodash
+
+  // JQUERY
+  // npm install jquery
+
+  // ESLINT
+  // npm instal eslint -g
+
+  // GOOGLE FONTS
+  // https://fonts.google.com/
